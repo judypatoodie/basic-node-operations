@@ -25,6 +25,9 @@ const fs = require("fs");
           case "tail":
             commandLibrary.tail(userInputArray.slice(1));
             break;
+          default:
+            console.log("Not a valid command prompt");
+            break;
       }
  }
 
